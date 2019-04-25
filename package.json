@@ -1,0 +1,35 @@
+{
+  "name": "@infermedica/eslint-config-vue",
+  "version": "1.0.0",
+  "description": "ESLit configuration for vue.js projects.",
+  "author": "Infermedica",
+  "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/infermedica/eslint-config-vue.git"
+  },
+  "files": [
+    "*.js",
+    "README.md"
+  ],
+  "scripts": {
+    "lint": "eslint --ext .js ."
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "vue"
+  ],
+  "dependencies": {
+    "babel-eslint": "10.0.1",
+    "eslint": "5.16.0",
+    "eslint-config-airbnb-base": "13.1.0",
+    "eslint-find-rules": "3.3.1",
+    "eslint-import-resolver-webpack": "0.11.1",
+    "eslint-loader": "2.1.2",
+    "eslint-plugin-import": "2.17.2",
+    "eslint-plugin-promise": "4.1.1",
+    "eslint-plugin-vue": "5.2.2"
+  }
+}
