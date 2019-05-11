@@ -7,7 +7,8 @@ module.exports = {
   extends: [
     'airbnb-base',
     'plugin:vue/recommended',
-    'plugin:promise/recommended'
+    'plugin:promise/recommended',
+    'plugin:infermedica/recommended'
   ],
   parserOptions: {
     ecmaVersion: 2018,
@@ -75,7 +76,6 @@ module.exports = {
       endTag: 'never',
       selfClosingTag: 'never'
     }],
-    // TODO: 'vue/attributes-order':
     'vue/order-in-components': ['warn', {
       order: [
         'el',
@@ -109,6 +109,7 @@ module.exports = {
     'no-prototype-builtins': 'off',
     'prefer-deconstructing': 'off',
     'promise/catch-or-return': 'off',
+    'vue//attributes-order': 'off',  // We use the one defined in infermedica plugin
     'vue/max-attributes-per-line': 'off',
     'vue/singleline-html-element-content-newline': 'off'
   },
