@@ -109,7 +109,7 @@ module.exports = {
     'no-prototype-builtins': 'off',
     'prefer-deconstructing': 'off',
     'promise/catch-or-return': 'off',
-    'vue//attributes-order': 'off',  // We use the one defined in infermedica plugin
+    'vue/attributes-order': 'off',  // We use the one defined in infermedica plugin
     'vue/max-attributes-per-line': 'off',
     'vue/singleline-html-element-content-newline': 'off'
   },
