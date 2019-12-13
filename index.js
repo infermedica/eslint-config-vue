@@ -36,6 +36,7 @@ module.exports = {
       allowShortCircuit: true, allowTernary: true
     }],
     'arrow-parens': ['error', 'always'],
+    'import/extensions': ['error', 'never'],
     'import/no-extraneous-dependencies': ['error', {
       devDependencies: true,
       optionalDependencies: false
@@ -106,6 +107,7 @@ module.exports = {
     'no-console': 'off',
     'no-plusplus': 'off',
     'arrow-body-style': 'off',
+    'max-classes-per-file': 'off',
     'no-prototype-builtins': 'off',
     'prefer-deconstructing': 'off',
     'promise/catch-or-return': 'off',
